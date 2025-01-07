@@ -142,3 +142,5 @@ CSRF_FAILURE_VIEW = "pages.views.custom_403_view"
 LOGIN_REDIRECT_URL = "blog:index"
 
 LOGIN_URL = "login"
+
+MEDIA_ROOT = BASE_DIR / "media"
